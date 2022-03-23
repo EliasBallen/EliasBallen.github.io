@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="rules">
+    <button id="btnRules" class="btn2">Rules</button>
+  </div>
+  <div class="modalBox">
+      <div class="modalBoxContent">
+        <div class="box">
+            <span class="closeBox">&times;</span>
+        </div>
+        <div class="rulesContent">
+          <p>press any key to start, the game will choose a random color per level,
+            you must press in order the colors that have touched up to the current level,
+            the more levels the more colors to remember</p>
+          <br>
+          <p>when the game picks the color, the button fades in and out quickly,
+             if you press a button with the wrong color or wrong order in the sequence,
+             the game ends and you start over</p>
+
+        </div>
+         <div class="imageBox">
+              <img id="ruleOne" src="images/ruleone.png" alt="">
+              <img id="ruleTwo" src="images/ruletwo.png" alt="">
+           </div>
+         <div class="imageBox">
+           <img id="ruleFadeout" src="images/rulefadeout.png" alt="">
+           <img id="gameover" src="images/gameover.png" alt="">
+           </div>
+
+  </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+
+  </div>
+
+<!-- ********************************************************************************* -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+</body>
+
+</html>
