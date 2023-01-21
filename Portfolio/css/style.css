@@ -91,11 +91,12 @@ a.navItem{
 .boxItem:hover, .boxItem:focus{
   background:#3E065F;
   border-width:10px;
+  box-sizing: border-box;
   border-color:#8E05C2;
 }
 
 .boxItem h2{
-  font-size: clamp(2.0rem,4vw,2.5rem);
+  font-size: min(170%,2rem);
 
 }
 .boxItem p{
@@ -103,9 +104,9 @@ a.navItem{
 
 }
 .img img{
-  max-width: 70%;
+  max-width: 100%;
   height: auto;
-  border-radius: 10px;
+  
 }
 
 /**** skills section***/
