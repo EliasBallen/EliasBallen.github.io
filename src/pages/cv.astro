@@ -1,0 +1,96 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Perfil</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+    Programador Full Stack y Desarrollador en la Nube altamente competente, con experiencia especializada en la plataforma de AWS, respaldado por un certificado de AWS Developer. Experto en el manejo de bases de datos tanto relacionales como no relacionales, con un enfoque en la integración fluida de servicios entre el Backend y el Frontend. Destacada experiencia en el desarrollo personalizado dentro de WordPress, incluyendo la creación y administración de plugins y temas utilizando PHP y JavaScript.
+  </div>
+    <div class="mb-10 text-justify">
+Además, tengo una amplia experiencia en el desarrollo de proyectos en la nube utilizando servicios como AWS Lambda y DynamoDB, donde he demostrado habilidades para diseñar y desarrollar soluciones escalables y eficientes.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Educación</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Bachillerato en Administracion de Sistemas"
+      subtitle="2012 - 2013 Liceo Interoceánico Los Delfines, Guayaquil, Ecuador"
+    />
+    <TimeLineElement
+      title="Ingeniería en Electrónica y Telecomunicaciones"
+      subtitle="2014 - 2021 Escuela Superior Politecnica Del Litoral, Guayaquil, Ecuador"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experiencia</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Desarrollador Web fullstack y administrador de Hosting en ClickEdu"
+      subtitle="05/2022 - 11/2022 en ClickEdu, Guayaquil, Ecuador"
+    >Diseño de una plataforma web de lectura rápida. Encargado de gestionar el hosting del dominio, así como de crear diversos ejercicios didácticos para la plataforma usando JavaScript, también encargado de migrar algunas páginas web de la plataforma a otro hosting y otro dominio.
+    </TimeLineElement>
+    <TimeLineElement
+      title="Desarrollador Web y administrador de Hosting en ClickEdu"
+      subtitle="02/2023 - 08/2023 en ClickEdu, Guayaquil, Ecuador"
+    >
+    Mejoras de Plataforma, programar un sistema de revisión para las citas programadas en la plataforma programado en PHP con una base de datos SQL, crear servicio backend e interfaz de usuario para editar usuarios y eliminar usuarios conectando a la base de Datos.
+    </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Certificaciones</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a href="https://www.credly.com/badges/349e5485-e903-433c-8e3d-ba3792db16b2/linked_in_profile" target="_blank"> AWS Certified Developer – Associate</a>
+    </li>
+    <li>
+      <a href="https://www.freecodecamp.org/certification/EliasBallen/back-end-development-and-apis" target="_blank"> Back End Development and APIs</a>
+    </li>
+    <li>
+      <a href="https://www.freecodecamp.org/certification/EliasBallen/javascript-algorithms-and-data-structures" target="_blank"> JavaScript Algorithms and data structures</a>
+    </li>
+    <li>
+      <a href="https://www.freecodecamp.org/certification/EliasBallen/foundational-c-sharp-with-microsoft" target="_blank"> foundational C# with Microsoft
+      </a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>TypeScript</li>
+    <li>Python</li>
+    <li>PHP</li>
+    <li>Tailwind</li>
+    <li>React</li>
+    <li>Angular</li>
+    <li>Astro</li>
+    <li>Node Js</li>
+    <li>express</li>
+    <li>Mongo DB</li>
+    <li>MySQL</li>
+    <li>AWS DynamoDB</li>
+    <li>AWS Lambda</li>
+    <li>AWS S3</li>
+    <li>GitHub</li>
+    <li>WordPress</li>
+  </ul>
+</BaseLayout>
