@@ -3,5 +3,6 @@
 }
 
 .mask-brush{
+    
     mask-image: url('/public/sidebar/brushstroke2.svg');
   }
