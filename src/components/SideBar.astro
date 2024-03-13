@@ -11,8 +11,11 @@ const { sideBarActiveItemID } = Astro.props;
     <div class="w-fit mx-auto mt-5 mb-6">
       <a href="/">
         <div class="avatar transition ease-in-out hover:scale-[102%] block m-auto">
-          <div class="w-[8.5rem]">
-            <Image class="mask mask-circle" format="webp" width={300} height={300} src="/linkedinprofilephoto.jpg" alt="Profile image" />
+          <div class=" w-[8.5rem] w-[98%]">
+            <!-- w-[8.5rem] .mask-brush is a custom class, check global.css -->
+            <Image class="mask mask-brush"
+            
+            format="webp" width={300} height={300} src="/linkedinprofilephoto.jpg" alt="Profile image" />
           </div>
         </div>
       </a>
